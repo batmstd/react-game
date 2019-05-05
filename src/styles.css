@@ -1,0 +1,28 @@
+.cards {
+  display: grid;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.card,
+.select {
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  border: none;
+}
+
+.card {
+  background-color: #2888a8;
+}
+
+.card:hover {
+  background-color: #305764;
+}
+
+.card:active,
+.select {
+  background-color: #077422;
+}
